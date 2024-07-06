@@ -22,7 +22,7 @@ function initializeGeolocation() {
         }, {
             enableHighAccuracy: true,
             timeout: 60000,
-            maximumAge: 0,
+            // maximumAge: 0,
         });
     }
 }
